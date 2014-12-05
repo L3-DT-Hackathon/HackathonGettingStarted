@@ -1,7 +1,11 @@
 # Hackathon: Getting Started
 
-These are the setup instructions for getting started with the
-[GoCD](http://www.go.cd) hackathon
+Would you like to learn how to hack on [GoCD](http://www.go.cd)?
+
+Are you a current GoCD user and you feel it is missing that one special
+plugin?
+
+If so, join us for our hackathon!
 
 # Date/Location
 
@@ -16,10 +20,6 @@ McLean, VA 22102
 To sign up:
 
 https://www.eventbrite.com/e/l-3-data-tactics-hackathon-tickets-14501573597
-
-# Objective
-
-At this Hackathon, we will be creating [GoCD](http://www.go.cd) plugins.
 
 # Intro
 
