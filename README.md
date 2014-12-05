@@ -1,6 +1,7 @@
 # Hackathon: Getting Started
 
-Would you like to learn how to hack on [GoCD](http://www.go.cd)?
+Would you like to learn how to hack on [GoCD](http://www.go.cd) by
+Thoughtworks?
 
 Are you a current GoCD user and you feel it is missing that one special
 plugin?
