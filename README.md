@@ -8,10 +8,10 @@ These are the setup instructions for getting started with the
 The event is going to be on Saturday, December 13, 2014 from 9:00 AM to
 5:00 PM. We will have food and swag. The address is 
 
-L-3 Data Tactics
-7901 Jones Branch Dr 
-Suite 700 
-McLean, VA 22102
+L-3 Data Tactics 
+7901 Jones Branch Dr  
+Suite 700  
+McLean, VA 22102 
 
 To sign up:
 
