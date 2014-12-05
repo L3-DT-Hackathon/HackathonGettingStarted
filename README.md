@@ -19,7 +19,7 @@ McLean, VA 22102
 
 To sign up:
 
-https://www.eventbrite.com/e/l-3-data-tactics-hackathon-tickets-14501573597
+[https://www.eventbrite.com/e/l-3-data-tactics-hackathon-tickets-14501573597](https://www.eventbrite.com/e/l-3-data-tactics-hackathon-tickets-14501573597)
 
 # Intro
 
