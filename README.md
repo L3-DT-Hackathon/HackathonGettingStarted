@@ -1,7 +1,7 @@
 # Hackathon: Getting Started
 
 Would you like to learn how to hack on [GoCD](http://www.go.cd) by
-Thoughtworks?
+[Thoughtworks](http://www.thoughtworks.com/products/go-continuous-delivery/resources)?
 
 Are you a current GoCD user and you feel it is missing that one special
 plugin?
