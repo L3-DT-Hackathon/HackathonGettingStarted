@@ -11,7 +11,7 @@ If so, join us for our hackathon!
 # Date/Location
 
 The event is on Saturday, December 13, 2014 from 9:00 AM to
-5:00 PM. We will have food and swag. The address:
+5:00 PM. We will have snacks, catered Chipotle and swag/prizes. The address:
  
 L-3 Data Tactics  
 7901 Jones Branch Dr  
