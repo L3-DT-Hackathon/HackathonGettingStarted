@@ -10,8 +10,8 @@ If so, join us for our hackathon!
 
 # Date/Location
 
-The event is going to be on Saturday, December 13, 2014 from 9:00 AM to
-5:00 PM. We will have food and swag. The address is:
+The event is on Saturday, December 13, 2014 from 9:00 AM to
+5:00 PM. We will have food and swag. The address:
  
 L-3 Data Tactics  
 7901 Jones Branch Dr  
@@ -22,17 +22,22 @@ To sign up:
 
 [https://www.eventbrite.com/e/l-3-data-tactics-hackathon-tickets-14501573597](https://www.eventbrite.com/e/l-3-data-tactics-hackathon-tickets-14501573597)
 
+## But It's Too Late For Me To Sign Up!
+
+No worries! Call me and we'll make it happen! 571-766-8167
+
 # Intro
 
 * Bring a laptop
 * Have a [Github account](http://github.com)
+* Join [the L3-DT-Hackathon dev team](https://github.com/orgs/L3-DT-Hackathon/teams/devs)
 
 ## More
 
 * Read the [code contribution
 process](http://www.go.cd/contribute/contribution-guide.html#code-contribution-process)
 * Read the [Go "geeknight" handout](geeknight_handout.doc)
-* Read the [Go "geeknight" presentation](geeknight.pptx).
+* Read the [Go "geeknight" presentation](geeknight.pptx)
 
 # How
 
@@ -46,6 +51,7 @@ In no particular order, here are the ideas:
 
 * XMPP/Jabber server integration
 * Build status buttons (green "passing", red "failing", etc)
+* Integration with github pull requests (thank you Mr Belden)
 * Value stream un-blocker
 * **your idea here :)**
 
