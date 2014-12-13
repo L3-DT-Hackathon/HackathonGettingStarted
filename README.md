@@ -123,3 +123,8 @@ cp ~/curl-plugin-old-api-based-1.0.jar /var/lib/go-server/plugins/external
 ```
 service go-server restart
 ```
+
+* Add this to /etc/default/go-server so that you don't need to restart the server, on plugin change:
+```
+export GO_SERVER_SYSTEM_PROPERTIES="-DpluginLocationMonitor.sleepTimeInSecs=3"
+```
