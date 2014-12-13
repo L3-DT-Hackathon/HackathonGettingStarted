@@ -91,10 +91,10 @@ cool too. Your name and commits get mentioned on their site.
 
 
 # Installing a plugin
-1. Clone the gocd repo 
+* Clone the gocd repo 
 https://github.com/gocd/gocd  
 
-2. Get The Plugins Jar 
+* Get The Plugins Jar 
 http://www.go.cd/documentation/user/current/resources/go-plugin-api-current.jar   
 Run the following command in the directory that you saved the jar:
 ```
@@ -102,18 +102,18 @@ mvn install:install-file -Dfile=go-plugin-api-current.jar -DgroupId=com.thoughtw
 ```
 -Dversion=14.4.0 -Dpackaging=jar
 
-3. Build the sample plugin
+* Build the sample plugin
 ```
 cd plugin-infra/sample-plugins/curl-plugin-old-api-based/ 
 mvn clean install  
 ```
 
-4. SCP the plugin jar to the gocd box
+* SCP the plugin jar to the gocd box
 scp -P 2222 /<path-to-.m2>/.m2/repository/com/thoughtworks/go/curl-plugin-old-api-based/1.0/curl-plugin-old-api-based-1.0.jar vagrant@<hostname>:.
 
-5. Move to the plugins directory
+* Move to the plugins directory
 cp ~/curl-plugin-old-api-based-1.0.jar /var/lib/go-server/plugins/external
 
-6. Restart the server
+* Restart the server
 service go-server restart
 
