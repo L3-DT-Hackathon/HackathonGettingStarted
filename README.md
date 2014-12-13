@@ -88,3 +88,32 @@ GoCD is one of the projects at
 [24pullrequests](http://24pullrequests.com). So, if you or someone else
 wants to become a part of the giving back during the hackathon, that's
 cool too. Your name and commits get mentioned on their site.
+
+
+# Installing a plugin
+1. Clone the gocd repo 
+https://github.com/gocd/gocd  
+
+2. Get The Plugins Jar 
+http://www.go.cd/documentation/user/current/resources/go-plugin-api-current.jar   
+Run the following command in the directory that you saved the jar:
+```
+mvn install:install-file -Dfile=go-plugin-api-current.jar -DgroupId=com.thoughtworks.go -DartifactId=go-plugin-api 
+```
+-Dversion=14.4.0 -Dpackaging=jar
+
+3. Build the sample plugin
+```
+cd plugin-infra/sample-plugins/curl-plugin-old-api-based/ 
+mvn clean install  
+```
+
+4. SCP the plugin jar to the gocd box
+scp -P 2222 /<path-to-.m2>/.m2/repository/com/thoughtworks/go/curl-plugin-old-api-based/1.0/curl-plugin-old-api-based-1.0.jar vagrant@<hostname>:.
+
+5. Move to the plugins directory
+cp ~/curl-plugin-old-api-based-1.0.jar /var/lib/go-server/plugins/external
+
+6. Restart the server
+service go-server restart
+
