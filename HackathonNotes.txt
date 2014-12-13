@@ -1,0 +1,71 @@
+Welcome to Etherpad!
+
+This pad text is synchronized as you type, so that everyone viewing this page sees the same text. This allows you to collaborate seamlessly on documents!
+
+Get involved with Etherpad at http://etherpad.org
+
+# Installing a plugin
+1. Clone the gocd repo 
+https://github.com/gocd/gocd  
+
+2. Get The Plugins Jar 
+http://www.go.cd/documentation/user/current/resources/go-plugin-api-current.jar   
+Run the following command in the directory that you saved the jar:
+    mvn install:install-file -Dfile=go-plugin-api-current.jar -DgroupId=com.thoughtworks.go -DartifactId=go-plugin-api -Dversion=14.4.0 -Dpackaging=jar
+
+3. Build the sample plugin
+cd plugin-infra/sample-plugins/curl-plugin-old-api-based/ 
+mvn clean install  
+
+4. SCP the plugin jar to the gocd box
+scp -P 2222 /<path-to-.m2>/.m2/repository/com/thoughtworks/go/curl-plugin-old-api-based/1.0/curl-plugin-old-api-based-1.0.jar vagrant@<hostname>:.
+
+5. Move to the plugins directory
+cp curl-plugin-old-api-based-1.0.jar /var/lib/go-server/plugins/external
+
+6. Restart the server
+service go-server restart
+
+
+Sample Edits Performed During Modification of the Curl-Plugin-Old-API-Based
+- sample plugin located under gocd/plugin-infra/sample-plugins/curl-plugin-old-api-based
+- changed the name of the plugin
+- opened resources/plugin.xml for edit
+- changed name found in <go-plugin><about><name> to 'Curl Task Plugin - Old API Based - Kurt'
+- changed the URL label displayed in the plugin's web page
+- opened resources/views/task.template.html
+- change the text found in <div><label> to 'Kurts awesome URL'
+
+Maven install plugin API: https://gist.github.com/arvindsv/9cb1f1472d487d822b5a
+
+
+download: http://www.go.cd/documentation/user/current/resources/go-plugin-api-current.jar
+mvn install:install-file -Dfile=go-plugin-api-current.jar -DgroupId=com.thoughtworks.go -DartifactId=go-plugin-api -Dversion=14.4.0 -Dpackaging=jar
+
+scp -P 2222 /Users/kyoder/.m2/repository/com/thoughtworks/go/curl-plugin-old-api-based/1.0/curl-plugin-old-api-based-1.0.jar vagrant@beast:.
+
+Add this to /etc/default/go-server so that you don't need to restart the server, on plugin change:
+export GO_SERVER_SYSTEM_PROPERTIES="-DpluginLocationMonitor.sleepTimeInSecs=3"
+
+Docs: go.cd/documentation/user/current
+Dev docs: go.cd/documentation/user/developer
+
+Development environment setup: http://www.go.cd/documentation/developer/2/2.1.html
+
+https://github.com/pshivana/documentation/blob/master/user/extension_points/json_message_based_plugin_api.md
+
+
+Happy Badger
+http://commons.wikimedia.org/wiki/File:'Honey'_the_badger.jpg
+ Creative Commons Attribution 2.0 Generic
+ Peter Trimming 
+ Source: http://commons.wikimedia.org/wiki/File:'Honey'_the_badger.jpg
+
+Sad Badger
+http://commons.wikimedia.org/wiki/File:Badger.jpg
+Public Domain 
+Source:  http://www.nps.gov/tont/nature/badger.htm
+
+Small size badgers: https://github.com/arvindsv/random-junk/tree/master
+
+
