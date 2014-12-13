@@ -119,12 +119,13 @@ scp -P 2222 /<path-to-.m2>/.m2/repository/com/thoughtworks/go/curl-plugin-old-ap
 cp ~/curl-plugin-old-api-based-1.0.jar /var/lib/go-server/plugins/external
 ```
 
+* Add this to /etc/default/go-server so that you don't need to restart the server, on plugin change:
+```
+export GO_SERVER_SYSTEM_PROPERTIES="-DpluginLocationMonitor.sleepTimeInSecs=3"
+```
+
 * Restart the server
 ```
 service go-server restart
 ```
 
-* Add this to /etc/default/go-server so that you don't need to restart the server, on plugin change:
-```
-export GO_SERVER_SYSTEM_PROPERTIES="-DpluginLocationMonitor.sleepTimeInSecs=3"
-```
