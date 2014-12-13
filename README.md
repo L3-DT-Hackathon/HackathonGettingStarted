@@ -98,9 +98,8 @@ https://github.com/gocd/gocd
 http://www.go.cd/documentation/user/current/resources/go-plugin-api-current.jar   
 Run the following command in the directory that you saved the jar:
 ```
-mvn install:install-file -Dfile=go-plugin-api-current.jar -DgroupId=com.thoughtworks.go -DartifactId=go-plugin-api 
+mvn install:install-file -Dfile=go-plugin-api-current.jar -DgroupId=com.thoughtworks.go -DartifactId=go-plugin-api -Dversion=14.4.0 -Dpackaging=jar
 ```
--Dversion=14.4.0 -Dpackaging=jar
 
 * Build the sample plugin
 ```
