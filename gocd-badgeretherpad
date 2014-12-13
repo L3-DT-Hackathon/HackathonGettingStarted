@@ -1,0 +1,7 @@
+Show build status badges. We will approach this by creating a node.js app that utilizes the GoCD API, then returns an image. example
+<img src="http://node_server/blah">
+
+https://github.com/azat-co/expressworks
+
+https://github.com/L3-DT-Hackathon/badger-gocd
+git@github.com:L3-DT-Hackathon/badger-gocd.git
