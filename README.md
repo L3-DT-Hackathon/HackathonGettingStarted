@@ -22,10 +22,6 @@ To sign up:
 
 [https://www.eventbrite.com/e/l-3-data-tactics-hackathon-tickets-14501573597](https://www.eventbrite.com/e/l-3-data-tactics-hackathon-tickets-14501573597)
 
-## But It's Too Late For Me To Sign Up!
-
-No worries! Call me and we'll make it happen! 571-766-8167
-
 # Intro
 
 * Bring a laptop
