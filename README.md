@@ -8,6 +8,15 @@ plugin?
 
 If so, join us for our hackathon!
 
+# Done!
+
+This hackathon was a great learning experience! Highlights:
+
+* [arvindsv](https://github.com/arvindsv) from Thoughtworks joined us and was a tremendous help.
+* [tlpinney](https://github.com/tlpinney) worked on [badger](https://github.com/L3-DT-Hackathon/badger-gocd)
+* [scottbelden](https://github.com/scottbelden) worked on a materials plugin
+* we had others join as well (if any of you read this and want me to mention anything, let me know)
+
 # Date/Location
 
 The event is on Saturday, December 13, 2014 from 9:00 AM to
@@ -20,7 +29,7 @@ McLean, VA 22102
 
 To sign up:
 
-[https://www.eventbrite.com/e/l-3-data-tactics-hackathon-tickets-14501573597](https://www.eventbrite.com/e/l-3-data-tactics-hackathon-tickets-14501573597)
+(closed)
 
 # Intro
 
